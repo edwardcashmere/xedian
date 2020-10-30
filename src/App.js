@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
+import UnderConstrution from './Components/UnderConstruction';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <UnderConstrution/>
         <p>
           Edwin Omondi .Xedian
         </p>
@@ -17,7 +17,6 @@ function App() {
         >
           Still Under Construction
         </a>
-      </header>
     </div>
   );
 }
