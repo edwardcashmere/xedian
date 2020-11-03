@@ -1,15 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+:root{
+  --textColor:#3366ff;
+  --typingColor:#668cff;
+  --hrColor:#ff6666;
+}
 
 
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+background-color: #282c34;
+font-family: 'Open Sans', sans-serif;
+
+}
 
 
 .App{
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
@@ -18,5 +33,66 @@
 
 .App-link {
   color: #61dafb;
+}
+.name-tag{
+  color:var(--textColor);
+  margin-top:20px;
+  padding:10px;
+  margin-right: 450px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 150px;
+
+
+}
+.work-tag{
+  margin-top:30px;
+  padding-left:0 ;
+  color:white;
+  font-size:40px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 150px;
+
+}
+.terminal{
+  padding-left: 150px;
+}
+
+hr {
+  margin-top:20px;
+  margin-bottom:20px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(183, 0, 0, 0), rgba(183, 0, 0, 0.75), rgba(183, 0, 0, 0));
+}
+.myself{
+  font-size:30px;
+  color:white;
+  display:flex;
+  flex-wrap: wrap;
+  width:40%;
+  line-height:150%;
+  padding-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 250px;
+
+}
+
+.me-image{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+.image{
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  overflow:hidden;
+  position: relative;
+
 }
 
